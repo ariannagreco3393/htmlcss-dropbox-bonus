@@ -606,8 +606,19 @@ section hr {
   }
 
 
+  /* Accordion FAQ
+*/
 
+.accordion:hover .accordion-item:hover 
 
+.accordion-item-content,
+.accordion .accordion-item--default 
+.accordion-item-content {
+    height: 6rem;
+}
 
-
-
+.accordion-item-content,
+.accordion:hover .accordion-item-content {
+    height: 0;
+    overflow: hidden;
+}
